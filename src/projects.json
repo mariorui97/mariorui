@@ -1,0 +1,105 @@
+[
+    {
+      "name": "the boy who coded",
+      "description": "A 2d game based on the Harry Potter movie saga",
+      "imageSrc": "https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg",
+      "imageAlt": "Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.",
+      "href": "https://mariorui97.github.io/hpgame-project/",
+      "technologies": [
+        {
+          "imgAlt": "HTML",
+          "imgSrc": "/html.png"
+        },
+        {
+          "imgAlt": "CSS",
+          "imgSrc": "/css-3.png"
+        },
+        {
+          "imgAlt": "Javascript",
+          "imgSrc": "/js.png"
+        }
+      ]
+    },
+    {
+      "name": ".travelly",
+      "description": "A trip planner, built around an API and with authentication",
+      "imageSrc": "https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg",
+      "imageAlt": "Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.",
+      "href": "https://travelly-your-trip-planner.herokuapp.com/",
+      "technologies": [
+        {
+          "imgAlt": "HTML",
+          "imgSrc": "/html.png"
+        },
+        {
+          "imgAlt": "CSS",
+          "imgSrc": "/css-3.png"
+        },
+        {
+          "imgAlt": "Javascript",
+          "imgSrc": "/js.png"
+        },
+        {
+          "imgAlt": "Bootstrap",
+          "imgSrc": "/bootstrap.png"
+        },
+        {
+          "imgAlt": "mongodb",
+          "imgSrc": "/mongodb.png"
+        },
+        {
+          "imgAlt": "Handlebars",
+          "imgSrc": "/handlebar.png"
+        },
+        {
+          "imgAlt": "node",
+          "imgSrc": "/node-js.png"
+        }
+      ]
+    },
+    {
+      "name": "diff",
+      "description": "A duo partner finder for the Riot's game: League of Legends",
+      "imageSrc": "https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg",
+      "imageAlt": "Collection of four insulated travel bottles on wooden shelf.",
+      "href": "https://duo-diff.herokuapp.com/",
+      "technologies": [
+        {
+          "imgAlt": "HTML",
+          "imgSrc": "/html.png"
+        },
+        {
+          "imgAlt": "CSS",
+          "imgSrc": "/css-3.png"
+        },
+        {
+          "imgAlt": "Javascript",
+          "imgSrc": "/js.png"
+        },
+        {
+          "imgAlt": "React",
+          "imgSrc": "/physics.png"
+        },
+        {
+          "imgAlt": "node",
+          "imgSrc": "/node-js.png"
+        },
+        {
+          "imgAlt": "MaterialUI",
+          "imgSrc": "/materialui.png"
+        },
+        {
+          "imgAlt": "mongodb",
+          "imgSrc": "/mongodb.png"
+        },
+        {
+          "imgAlt": "socketio",
+          "imgSrc": "/socket.png"
+        },
+        {
+          "imgAlt": "heroku",
+          "imgSrc": "/heroku.png"
+        }
+      ]
+    }
+  ]
