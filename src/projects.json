@@ -2,8 +2,8 @@
     {
       "name": "the boy who coded",
       "description": "A 2d game based on the Harry Potter movie saga",
-      "imageSrc": "https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg",
-      "imageAlt": "Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.",
+      "imageSrc": "./hp.png",
+      "imageAlt": "A 2d game based on the Harry Potter movie saga",
       "href": "https://mariorui97.github.io/hpgame-project/",
       "technologies": [
         {
@@ -23,8 +23,8 @@
     {
       "name": ".travelly",
       "description": "A trip planner, built around an API and with authentication",
-      "imageSrc": "https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg",
-      "imageAlt": "Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.",
+      "imageSrc": "./travelly.png",
+      "imageAlt": "A trip planner, built around an API and with authentication",
       "href": "https://travelly-your-trip-planner.herokuapp.com/",
       "technologies": [
         {
@@ -60,8 +60,8 @@
     {
       "name": "diff",
       "description": "A duo partner finder for the Riot's game: League of Legends",
-      "imageSrc": "https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg",
-      "imageAlt": "Collection of four insulated travel bottles on wooden shelf.",
+      "imageSrc": "./diff.png",
+      "imageAlt": "A duo partner finder for the Riot's game: League of Legends",
       "href": "https://duo-diff.herokuapp.com/",
       "technologies": [
         {
