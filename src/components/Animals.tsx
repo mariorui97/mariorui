@@ -14,14 +14,16 @@ function Animals() {
         md:mb-6
       "
     >
-      Our Team Section
+      My Pets
     </h2>
 
-    <p className="max-w-screen-md mx-auto text-center text-gray-500 md:text-lg">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis
-      perspiciatis omnis aspernatur impedit vel, consectetur laudantium nulla et
-      aliqua
+    <p data-tooltip-target="tooltip-default" className="max-w-screen-md mx-auto text-center text-gray-500 md:text-lg">      
+      To be honest, they are not pets - they are family. I grew with them and I'll make sure they grow with me. 
     </p>
+{/*       <div id="tooltip-default" role="tooltip" className="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700">
+      Tooltip content
+      <div className="tooltip-arrow" data-popper-arrow></div>
+    </div> */}
   </div>
 
   <div className="grid gap-4 md:grid-cols-3">

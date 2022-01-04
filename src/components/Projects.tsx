@@ -41,8 +41,13 @@ import callouts from '../projects.json'
             </div>
           </div>
           <div className="flex flex-col  items-center content-center justify-center justify-items-center">
-          <h2 className="text-2xl font-extrabold text-gray-900 mb-6">And this portfolio, which was built in:</h2> 
-          <img src="../physics.png" alt=""/> 
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">And this portfolio, which was built in:</h2>
+            <div className='flex flex-row items-center content-center justify-center justify-items-center'>
+              <img className="mr-2" src="../physics.png" alt="react"/>
+              <img className="mr-2" src="../typescript.png" alt="typescript"/>  
+              <img className="mr-2" src="../tailwind.png" alt="tailwind"/>
+              <img className="mr-2" src="../firebase.png" alt="firebase"/>
+            </div>                    
           </div>
           
         </div>
