@@ -4,7 +4,7 @@ import callouts from '../projects.json'
   export default function Projects() {
     return (
       <div className="bg-gray-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 lg:mb-16 sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none">
             <h2 className="text-2xl font-extrabold text-gray-900">Projects</h2>
   
@@ -15,7 +15,7 @@ import callouts from '../projects.json'
                     <img
                       src={callout.imageSrc}
                       alt={callout.imageAlt}
-                      className="w-full h-full object-center object-cover"
+                      className="w-full h-full object-center"
                     />        
       
                   </div>  
@@ -29,16 +29,22 @@ import callouts from '../projects.json'
                                                                    
                   </div>
                   <h3 className="mt-6 text-sm text-gray-500">
-                    <a href={callout.href}>
+                    <a href={callout.href} target="_blank" rel="noreferrer" >
                       <span className="absolute inset-0" />
                       {callout.description}
                     </a>
                   </h3>
-                  <p className="text-base font-semibold text-gray-900">{callout.name}</p>
+                  <p className="text-base font-semibold text-gray-900">{callout.name}</p>                  
                 </div>
               ))}
+              
             </div>
           </div>
+          <div className="flex flex-col  items-center content-center justify-center justify-items-center">
+          <h2 className="text-2xl font-extrabold text-gray-900 mb-6">And this portfolio, which was built in:</h2> 
+          <img src="../physics.png" alt=""/> 
+          </div>
+          
         </div>
       </div>
     )

@@ -94,7 +94,7 @@
 	
 	.social-icons#cv a:hover:before {
 		transform: scale(0);
-		transition: all 999ms ease-in;
+		transition: all 700ms ease-in;
 	}
 	
 	.social-icons#cv a:hover i {

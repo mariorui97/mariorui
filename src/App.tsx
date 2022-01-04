@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import HeroSection from './components/HeroSection';
+import Animals from './components/Animals';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar/>
       <HeroSection/>
       <Projects/>
+      <Animals/>
     </div>
   );
 }

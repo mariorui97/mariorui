@@ -15,7 +15,7 @@ function HeroSection() {
                     <h1 className=" font-bold text-5xl mt-3 md:text-7xl max-w-xl text-gray-900 leading-tight">Web Developer</h1>
                     <hr className=" max-w h-1 text-transparent bg-gradient-to-r from-cyan-500 to-blue-500 mt-8"/>
                     <p className="text-gray-800 text-base leading-relaxed mt-8 font-semibold">Apart from the Super Mário reference I'm in love coding, and not with Princess Peach.</p>
-                    <p className="text-gray-800 text-base leading-relaxed mt-1 font-semibold">Born and raised in Portugal, maded to win on the world of coding.</p>
+                    <p className="text-gray-800 text-base leading-relaxed mt-1 font-semibold">Born and raised in Portugal - forged to succeed in the coding world.</p>
                     <div className="get-app flex space-x-5 mt-10 justify-center md:justify-start">
                         <Socials/>
                     </div>
