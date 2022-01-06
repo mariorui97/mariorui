@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import HeroSection from './components/HeroSection';
 import Animals from './components/Animals';
+import Joke from './components/Joke';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <HeroSection/>
       <Projects/>
       <Animals/>
+      <Joke/>
     </div>
   );
 }
