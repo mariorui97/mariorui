@@ -1,11 +1,13 @@
 import React from 'react'
 import './Animals.css'
 import '@themesberg/flowbite';
+import {Element} from 'react-scroll'
 
 function Animals() {
     return (
 <div className="max-w-screen-xl px-4 py-24 mx-auto md:px-8" >
   <div className="mb-10 md:mb-16" >
+  <Element id='animals' name='animals'></Element>
     <h2
       className="
         mb-4

@@ -1,13 +1,15 @@
 import './Projects.css'
 import callouts from '../projects.json'
-  
+import { Element } from 'react-scroll'  
   export default function Projects() {
     return (
       <div className="bg-gray-100">
         <div className="max-w-7xl mx-auto px-4 lg:mb-16 sm:px-6 lg:px-8">
+          
           <div className="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none">
+          <Element id='projects' name='projects'></Element>
             <h2 className="text-2xl font-extrabold text-gray-900">Projects</h2>
-  
+            
             <div className="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
               {callouts.map((callout, i) => (
                 <div key={callout.name} className="group relative" id="hovering" >

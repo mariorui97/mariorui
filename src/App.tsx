@@ -7,11 +7,13 @@ import HeroSection from './components/HeroSection';
 import Animals from './components/Animals';
 import Joke from './components/Joke';
 
+
+
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <HeroSection/>
+      <HeroSection/>      
       <Projects/>
       <Animals/>
       <Joke/>

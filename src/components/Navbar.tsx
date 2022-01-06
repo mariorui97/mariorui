@@ -1,20 +1,13 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from 'react'
+import React, { Fragment, Component } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
-
-const navigation = [
-  { name: 'Dashboard', href: '#'},
-  { name: 'Animals', href: '#'},
-  { name: 'Projects', href: '#'},
-  { name: 'Calendar', href: '#'},
-]
+import Scroll from 'react-scroll';
+const ScrollLink = Scroll.Link
 
 function classNames(...classes:any) {
   return classes.filter(Boolean).join(' ')
 }
-
-
 
 export default function Navbar() {
   return (
@@ -47,56 +40,97 @@ export default function Navbar() {
                     alt="Workflow"
                   />
                 </div>
-                
+                    
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
               <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
-                    {navigation.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className={classNames(
-                          'text-gray-300 hover:bg-gray-700 hover:text-white',
-                          'px-3 py-2 rounded-md text-sm font-medium'
-                        )}
-                        aria-current={undefined}
-                      >
-                        {item.name}
-                      </a>
-                    ))}
+                    <ScrollLink 
+                      to="projects" 
+                      spy={true} 
+                      smooth={true} 
+                      duration={500} 
+                      className='text-gray-300 cursor-pointer hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'>
+                      Projects
+                    </ScrollLink>  
+                    <ScrollLink 
+                      to="animals" 
+                      spy={true} 
+                      smooth={true} 
+                      duration={500} 
+                      className='text-gray-300 cursor-pointer hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'>
+                      Animals
+                    </ScrollLink>  
+                    <ScrollLink 
+                      to="joke" 
+                      spy={true} 
+                      smooth={true} 
+                      duration={500} 
+                      className='text-gray-300 cursor-pointer hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'>
+                      Daily Joke
+                    </ScrollLink>    
                   </div>
                 </div>
-                <button
-                  type="button"
-                  className="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
-                >
-                  <span className="sr-only">View notifications</span>
-                  <BellIcon className="h-6 w-6" aria-hidden="true" />
-                </button>
-
-                {/* Profile dropdown */}
-               
               </div>
             </div>
           </div>
 
           <Disclosure.Panel className="sm:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
-              {navigation.map((item) => (
                 <Disclosure.Button
-                  key={item.name}
+                  key='Projects'
                   as="a"
-                  href={item.href}
                   className={classNames(
                   'text-gray-300 hover:bg-gray-700 hover:text-white',
                     'block px-3 py-2 rounded-md text-base font-medium'
                   )}
                   aria-current={undefined}  
                 >
-                  {item.name}
+                  <ScrollLink 
+                      to="projects" 
+                      spy={true} 
+                      smooth={true} 
+                      duration={500} 
+                      className='text-gray-300 cursor-pointer hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'>
+                      Projects
+                    </ScrollLink>
                 </Disclosure.Button>
-              ))}
+                <Disclosure.Button
+                  key='Animals'
+                  as="a"
+                  className={classNames(
+                  'text-gray-300 hover:bg-gray-700 hover:text-white',
+                    'block px-3 py-2 rounded-md text-base font-medium'
+                  )}
+                  aria-current={undefined}  
+                >
+                  <ScrollLink 
+                      to="animals" 
+                      spy={true} 
+                      smooth={true} 
+                      duration={500} 
+                      className='text-gray-300 cursor-pointer hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'>
+                      Animals
+                    </ScrollLink>
+                </Disclosure.Button>
+                <Disclosure.Button
+                  key='Joke'
+                  as="a"
+                  className={classNames(
+                  'text-gray-300 hover:bg-gray-700 hover:text-white',
+                    'block px-3 py-2 rounded-md text-base font-medium'
+                  )}
+                  aria-current={undefined}  
+                >
+                  <ScrollLink 
+                      to="joke" 
+                      spy={true} 
+                      smooth={true} 
+                      duration={500} 
+                      className='text-gray-300 cursor-pointer hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'>
+                      Daily Jokes
+                    </ScrollLink>
+                </Disclosure.Button>
             </div>
           </Disclosure.Panel>
         </>

@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
+import {Element} from 'react-scroll'
 
 function Joke(){
     
@@ -26,6 +27,7 @@ function Joke(){
                 <h2 className="mb-4 text-2xl font-bold text-center text-gray-800 lg:text-3xl md:mb-6">
                         Daily Joke
                 </h2>
+                <Element id='joke' name='joke'></Element>
                 <div className="max-w-screen-md mx-auto font-semibold text-center text-xl md:text-lg">      
                     {joke} 
                 </div>
