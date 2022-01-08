@@ -39,7 +39,7 @@ function Animals() {
     <div className="p-4 shadow-lg hover:shadow-indigo-500/50">
       <div className="h-48 mb-2 overflow-hidden rounded-lg shadow-lg md:h-80">
         <img
-          src="https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166__340.jpg"
+          src="osquita.jpg"
           alt="Image"
           className="object-cover object-center w-full h-full"
         />
@@ -68,14 +68,14 @@ function Animals() {
     <div className="p-4 shadow-lg hover:shadow-indigo-500/50">
       <div className="h-48 mb-2 overflow-hidden rounded-lg shadow-lg md:h-80">
         <img
-          src="https://cdn.pixabay.com/photo/2016/11/18/19/07/happy-1836445__340.jpg"
+          src="./ritinha.jpg"
           alt="Image"
-          className="object-cover object-center w-full h-full"
+          className="object-cover object-top md:object-center lg:object-center w-full h-full "
         />
       </div>
 
       <div className="flex flex-col items-center justify-center">
-        <div className="font-bold text-indigo-500 md:text-lg">Ritinha</div>
+        <div className="font-bold text-indigo-500 md:text-lg ">Ritinha</div>
         <p className="mb-3 text-sm text-gray-500 md:text-base md:mb-4">
           The Ferret
         </p>
@@ -83,7 +83,7 @@ function Animals() {
         <div className="flex">
           <div className="flex gap-4">
             <img
-                className="w-6 h-6 text-blue-600 fill-current" src="./ferret.png"/>
+                className="w-6 h-6 text-blue-600 fill-current " src="./ferret.png"/>
             <img
                 className="w-6 h-6 text-blue-600 fill-current" src="./teeth.png"/>
             
@@ -98,7 +98,7 @@ function Animals() {
     <div className="p-4 shadow-lg hover:shadow-indigo-500/50">
       <div className="h-48 mb-2 overflow-hidden rounded-lg shadow-lg md:h-80">
         <img
-          src="https://cdn.pixabay.com/photo/2018/01/15/07/52/woman-3083401__340.jpg"
+          src="./nagini.jpg"
           alt="Image"
           className="object-cover object-center w-full h-full"
           />
@@ -122,7 +122,7 @@ function Animals() {
           </div>
         </div>
       </div>
-      <p className='mt-5'>Even though she's a corn snake - her taste is for mices. She loves giving kisses.</p>
+      <p className='mt-5'>Even though she's a corn snake - her taste is for mice. She loves giving kisses.</p>
     </div>
   </div>
 </div>

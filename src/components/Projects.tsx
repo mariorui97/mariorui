@@ -22,7 +22,7 @@ import { Element } from 'react-scroll'
       
                   </div>  
                   <div className="hover-project">
-                        <p>Technologies used:</p>
+                        <p className="font-bold">Technology stack used:</p>
                         <div className="techs">
                         {callout.technologies.map((elem)=> (               
                           <img src={elem.imgSrc} alt={elem.imgAlt}/>                            

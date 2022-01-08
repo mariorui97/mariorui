@@ -10,11 +10,11 @@ function HeroSection() {
 
             <div className="hero-wrapper grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
                 <div className="hero-text col-span-6">
-                    <h1 className=" font-medium text-3xl md:text-5xl max-w-xl text-gray-900 leading-tight">Hey, It's me Mário</h1>
+                    <h1 className=" font-medium text-3xl md:text-5xl max-w-xl text-gray-900 leading-tight">It's-a me, Mário</h1>
                     <h1 className=" font-semibold text-4xl mt-3 md:text-7xl max-w-xl text-gray-900 leading-tight">I'm a Full-Stack</h1>
                     <h1 className=" font-bold text-5xl mt-3 md:text-7xl max-w-xl text-gray-900 leading-tight">Web Developer</h1>
                     <hr className=" max-w h-1 text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 mt-8"/>
-                    <p className="text-gray-800 text-base leading-relaxed mt-8 font-semibold">Apart from the Super Mário reference I'm in love coding, and not with Princess Peach.</p>
+                    <p className="text-gray-800 text-base leading-relaxed mt-8 font-semibold">Apart from the Super Mário reference I'm in love with coding, and not with Princess Peach.</p>
                     <p className="text-gray-800 text-base leading-relaxed mt-1 font-semibold">Born and raised in Portugal - forged to succeed in the coding world.</p>
                     <div className="get-app flex space-x-5 mt-10 justify-center md:justify-start">
                         <Socials/>
